@@ -2,7 +2,7 @@ public class Azure_ClientCredentials_AuthProvider extends Auth.AuthProviderPlugi
     // constants
     public static final String CUSTOM_METADATA_TYPE = 'MicrosoftAzure_ClientCredentials__mdt';
     public static final String AUTH_PROVIDER_NAME = 'Azure_ClientCredentials';
-    public static final String USERNAME = 'Azure Dummy User';
+    public static final String USERNAME = 'Azure User';
 
     // declarations
     private IRefreshTokenGenerator generator = new DefaultRefreshTokenGenerator();
